@@ -41,11 +41,11 @@ import * as btn from '../utils/Button'
 
 const Footer = () => {
     return (
-        <footer className="section">
-            <div className="container">
+        <footer className="section reveal-up">
+            <div className="container reveal-up">
 
-                <div className="lg:grid lg:grid-cols-2">
-                    <div className="mb-10">
+                <div className="lg:grid lg:grid-cols-2 reveal-up">
+                    <div className="mb-10 reveal-up">
                         <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal-up">Let&apos;s work together today!</h2>
 
                         <btn.ButtonPrimary
@@ -55,7 +55,7 @@ const Footer = () => {
                             classes="reveal-up"
                         />
                     </div>
-                    <div className="grid grid-cols-2 gap-4 lg:pl-20">
+                    <div className="grid grid-cols-2 gap-4 lg:pl-20 reveal-up">
                         <div>
                             <p className="mb-2 reveal-up">Sitemap</p>
 
@@ -98,18 +98,18 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-between pt-10 mb-8">
+                <div className="flex items-center justify-between pt-10 mb-8 reveal-up">
                     <a
                         href="#home"
                         className="logo reveal-up"
                     >
                         <p
-                            className="w-8 h-8 bg-white text-zinc-900 flex justify-center items-center text-lg font-bold rounded-sm"
+                            className="w-8 h-8 bg-white text-zinc-900 flex justify-center items-center text-lg font-bold rounded-sm reveal-up"
                         >S</p>
                     </a>
 
                     <p className=" text-zinc-500 text-sm reveal-up">
-                        &copy; 2025 <span className='text-zinc-200'>smk.dev</span>
+                        &copy; 2025 <span className='text-zinc-200 reveal-up'>smk.dev</span>
                     </p>
                 </div>
 

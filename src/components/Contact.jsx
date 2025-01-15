@@ -32,16 +32,16 @@ const socialLinks = [
 
 const Contact = () => {
     return (
-        <section className="section" id="contact">
-            <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
+        <section className="section reveal-up" id="contact">
+            <div className="container lg:grid lg:grid-cols-2 lg:items-stretch reveal-up">
 
-                <div className="md-12 lg:mb-0 lg:flex lg:flex-col">
+                <div className="md-12 lg:mb-0 lg:flex lg:flex-col reveal-up">
                     <h2 className="headline-2 lg:max-w-[12ch] reveal-up">Contact me for collaboration</h2>
                     <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
                         Reach out today to discuss your project needs and start collaborating on something amazing!
                     </p>
 
-                    <div className="flex items-center gap-2 mt-auto">
+                    <div className="flex items-center gap-2 mt-auto reveal-up">
                         {socialLinks.map(({ href, icon }, key) => (
                             <a
                                 key={key}

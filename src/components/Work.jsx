@@ -3,37 +3,37 @@ import ProjectCard from "../utils/ProjectCard";
 const works = [
     {
         imgSrc: '/images/project-1.jpg',
-        title: 'Full stack music app',
+        title: 'Comming soon',
         tags: ['API', 'MVC', 'Development'],
-        projectLink: '#'
+        projectLink: '/'
     },
     {
         imgSrc: '/images/project-2.jpg',
-        title: 'Free stock photo app',
+        title: 'Comming soon',
         tags: ['API', 'SPA'],
-        projectLink: '#'
+        projectLink: '/'
     },
     {
         imgSrc: '/images/project-3.jpg',
-        title: 'Recipe app',
+        title: 'Comming soon',
         tags: ['Development', 'API'],
-        projectLink: '#'
+        projectLink: '/'
     },
     {
         imgSrc: '/images/project-4.jpg',
-        title: 'Real state website',
+        title: 'Comming soon',
         tags: ['Web-design', 'Development'],
-        projectLink: '#'
+        projectLink: '/'
     },
     {
         imgSrc: '/images/project-5.jpg',
-        title: 'eCommerce website',
+        title: 'Comming soon',
         tags: ['eCommerce', 'Development'],
-        projectLink: '#'
+        projectLink: '/'
     },
     {
         imgSrc: '/images/project-6.jpg',
-        title: 'vCard Personal portfolio',
+        title: 'Comming soon',
         tags: ['Web-design', 'Development'],
         projectLink: '#'
     },
@@ -41,13 +41,13 @@ const works = [
 
 const Work = () => {
     return (
-        <section className="section" id="work">
-            <div className="container">
+        <section className="section reveal-up" id="work">
+            <div className="container reveal-up">
                 <h2 className="headline-2 mb-8 reveal-up">
                     My portfolio highlights
                 </h2>
 
-                <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+                <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] reveal-up">
                     {works.map(({imgSrc, title, tags, projectLink}, key) => (
                         <ProjectCard
                             key={key}

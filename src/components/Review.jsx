@@ -59,15 +59,15 @@ const Review = () => {
     })
     return (
         <section
-            className="section overflow-hidden"
+            className="section overflow-hidden reveal-up"
             id="reviews"
         >
-            <div className="container">
+            <div className="container reveal-up">
                 <h2 className="headline-2 mb-8 reveal-up">
                     What our customers say
                 </h2>
 
-                <div className="scrub-slide flex items-stretch gap-3 w-fit">
+                <div className="scrub-slide flex items-stretch gap-3 w-fit reveal-up">
                     {reviews.map(({ content, name, imgSrc, company }, key) => (
                         <ReviewCard 
                             key={key}
