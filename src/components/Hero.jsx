@@ -38,6 +38,7 @@ const Hero = () => {
                         <btn.ButtonPrimary
                             label="Download CV"
                             icon="download"
+                            href="/images/samuel.pdf"
                         />
 
                         <btn.ButtonOutline
