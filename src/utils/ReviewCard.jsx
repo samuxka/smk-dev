@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const ratings = new Array(5)
 ratings.fill({
-    icon: 'fire'
+    icon: 'star'
 })
 
 const ReviewCard = ({content, imgSrc, name, company}) => {
