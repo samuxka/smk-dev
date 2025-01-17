@@ -18,9 +18,9 @@ const Header = () => {
                         <div className="boxLogo bg-white w-9 h-9 flex items-center justify-center rounded-sm reveal-up">
                            <p className="text-zinc-900 font-bold text-xl reveal-up">S</p>
                         </div>
-                        <p className="flex items-center reveal-up">
+                        <p className="flex items-center reveal-up gap-1">
                             <p className="text-lg reveal-up">Samuka.dev</p>
-                            <Icon icon="fluent-emoji:waving-hand" width="30" height="30" className="group-hover:animate-wave"/>
+                            <Icon icon="fluent-emoji:call-me-hand" width="30" height="30" className="-rotate-12 group-hover:animate-wave"/>
                         </p>
                     </a>
                 </h1>

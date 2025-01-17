@@ -18,10 +18,10 @@ export default {
       keyframes: {
         wave: {
           '0%, 100%': {
-            transform: 'rotate(0deg)'
+            transform: 'rotate(-12deg)'
           },
           '50%': {
-            transform: 'rotate(-20deg)'
+            transform: 'rotate(-30deg)'
           }
         }
       }
