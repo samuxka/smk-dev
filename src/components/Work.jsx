@@ -3,39 +3,39 @@ import ProjectCard from "../utils/ProjectCard";
 const works = [
     {
         imgSrc: '/images/project-1.jpg',
+        title: 'ZapZap - Chat app',
+        tags: ['logos:react', 'logos:socket-io', 'skill-icons:expressjs-dark', 'skill-icons:mongodb', 'logos:nodejs-icon'],
+        projectLink: 'https://chatapp-ap2w.onrender.com'
+    },
+    {
+        imgSrc: '/images/project-3.jpg',
         title: 'Comming soon',
-        tags: ['API', 'MVC', 'Development'],
+        tags: [],
         projectLink: '/'
     },
     {
         imgSrc: '/images/project-2.jpg',
         title: 'Comming soon',
-        tags: ['API', 'SPA'],
-        projectLink: '/'
-    },
-    {
-        imgSrc: '/images/project-3.jpg',
-        title: 'Comming soon',
-        tags: ['Development', 'API'],
+        tags: [],
         projectLink: '/'
     },
     {
         imgSrc: '/images/project-4.jpg',
         title: 'Comming soon',
-        tags: ['Web-design', 'Development'],
+        tags: [],
         projectLink: '/'
     },
     {
         imgSrc: '/images/project-5.jpg',
         title: 'Comming soon',
-        tags: ['eCommerce', 'Development'],
+        tags: [],
         projectLink: '/'
     },
     {
         imgSrc: '/images/project-6.jpg',
         title: 'Comming soon',
-        tags: ['Web-design', 'Development'],
-        projectLink: '#'
+        tags: [],
+        projectLink: '/'
     },
 ];
 
