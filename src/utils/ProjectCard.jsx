@@ -16,13 +16,13 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
             <div className="flex items-center justify-between gap-4">
                 <div>
                     <h3 className="title-1 mb-3">{title}</h3>
-                    <div className="flex flex-wrap items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-1">
                         {tags.map((label, key) => (
                             <span
                                 key={key}
-                                className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-sm"
+                                className="p-1 grid items-center rounded-sm"
                             >
-                                {label}
+                                <Icon icon={`${label}`} width={19.515}/>
                             </span>
                         ))}
                     </div>
