@@ -8,6 +8,11 @@ const skillItem = [
       desc: 'Interaction'
     },
     {
+        skicon: 'nextjs-dark',
+        label: 'Nextjs',
+        desc: 'Framework'
+    },
+    {
       skicon: 'react-dark',
       label: 'React js',
       desc: 'Framework'
@@ -32,11 +37,11 @@ const skillItem = [
       label: 'Git',
       desc: 'Version control tool'
     },
-    {
-      skicon: 'github-dark',
-      label: 'GitHub',
-      desc: 'Repository hosting tool'
-    },
+    // {
+    //   skicon: 'github-dark',
+    //   label: 'GitHub',
+    //   desc: 'Repository hosting tool'
+    // },
     {
       skicon: 'supabase-dark',
       label: 'Supabase',
