@@ -8,13 +8,13 @@ const works = [
         projectLink: 'https://chatapp-ap2w.onrender.com'
     },
     {
-        imgSrc: '/images/project-3.jpg',
-        title: 'Comming soon',
-        tags: [],
-        projectLink: '/'
+        imgSrc: '/images/project-2.jpg',
+        title: 'Interview training app',
+        tags: ['skill-icons:nextjs-dark', 'logos:firebase', 'logos:typescript-icon', 'logos:tailwindcss-icon'],
+        projectLink: 'https://ai-mock-interviews-pi-lovat.vercel.app/'
     },
     {
-        imgSrc: '/images/project-2.jpg',
+        imgSrc: '/images/project-3.jpg',
         title: 'Comming soon',
         tags: [],
         projectLink: '/'
