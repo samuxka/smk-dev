@@ -10,7 +10,7 @@ const works = [
     {
         imgSrc: '/images/project-2.jpg',
         title: 'Interview training app',
-        tags: ['skill-icons:nextjs-dark', 'logos:firebase', 'logos:typescript-icon', 'logos:tailwindcss-icon'],
+        tags: ['skill-icons:nextjs-dark', 'logos:react', 'logos:firebase', 'logos:typescript-icon', 'logos:tailwindcss-icon'],
         projectLink: 'https://ai-mock-interviews-pi-lovat.vercel.app/'
     },
     {
