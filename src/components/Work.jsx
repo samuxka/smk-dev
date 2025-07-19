@@ -15,9 +15,9 @@ const works = [
     },
     {
         imgSrc: '/images/project-3.jpg',
-        title: 'Comming soon',
-        tags: [],
-        projectLink: '/'
+        title: 'SearchFy',
+        tags: ['skill-icons:nextjs-dark', 'logos:react', 'logos:typescript-icon', 'logos:tailwindcss-icon'],
+        projectLink: 'https://searchfy-azure.vercel.app/'
     },
     {
         imgSrc: '/images/project-4.jpg',
